@@ -9,14 +9,18 @@ body {
 	background-color:#222;
 	overflow: hidden;
 	touch-action: none;
+
 	display:flex;
 	justify-content:center; 
 	align-items:center; 
-	height:100vh;
+
+	min-height: 100vh;
 }
 
 #canvas {
 	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 #canvas:focus {
